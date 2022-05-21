@@ -9,3 +9,17 @@ console.log(50 / 5);
 
 //string concatenation
 console.log("My name is " + "Brian");
+
+// declaring a variable using 'let'
+let myName = "Brian";
+
+console.log(myName);
+
+//variable names can be changed without using 'let' again
+myName = "Tracy";
+console.log(myName);
+
+//constant
+//constants cannot be changed as opposed to variables
+const vehicleBrand = "Toyota";
+console.log("The vehicle you selected is a " + vehicleBrand);
