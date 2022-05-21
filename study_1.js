@@ -29,11 +29,3 @@ const country = "Malaysia";
 
 //entire string is enclosed with backticks
 console.log(`Hello ${myName} and welcome to ${country}`);
-
-// if statements
-
-const ticketPrice = 2000;
-
-if (ticketPrice > 1500) {
-    console.log("Purchase the ticket");
-}
